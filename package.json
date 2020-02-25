@@ -1,0 +1,29 @@
+{
+  "name": "budget",
+  "version": "1.0.0",
+  "description": "Add functionality Budget Tracker application to allow for offline access and functionality.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shellbellquinn/budget.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shellbellquinn/budget/issues"
+  },
+  "homepage": "https://github.com/shellbellquinn/budget#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1",
+    "npm": "^6.13.7"
+  }
+}
